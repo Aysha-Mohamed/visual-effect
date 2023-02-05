@@ -1,0 +1,30 @@
+.banner{
+    height:100vh;
+    background-image: url("banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner img{
+    width: 5%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text-initial{
+    padding: 20px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all ease-in-out;
+}
+.quote-text-animate{
+    opacity: 1;
+    transform: translateY(0);
+}
